@@ -53,6 +53,7 @@ a
 .title
 {
     display: flex;
+    flex-wrap: wrap-reverse;
 }
 
 .title .left
@@ -64,7 +65,7 @@ a
 
 .title img
 {
-    width: 50%;
+    width: 45%;
     height: auto;
     padding: 64px;
 }
