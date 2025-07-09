@@ -77,10 +77,6 @@ button
     color: white;
     padding: 16px 32px;
     border-radius: 30px;
-}
-
-.title button
-{
     border: none;
 }
 
@@ -121,4 +117,60 @@ h2
 .header img
 {
     border-radius: 100%;
+}
+
+.paragraph
+{
+    background-color: #e5e7eb;
+    padding: 64px 300px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.quote
+{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.autor
+{
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #3882f6;
+    color: white;
+    margin-bottom: 64px;
+}
+
+.footer button
+{
+    color: white;
+    padding: 16px 32px;
+    border-radius: 30px;
+    border: white 2px solid;
+}
+
+.footer p
+{
+    padding: 32px 64px;
+}
+
+.rights
+{
+    text-align: center;
+    font-size: 14px;
+    color: #1f2937;
+    margin-top: 18px;
 }
