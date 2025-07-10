@@ -2,7 +2,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 
 .header
@@ -13,7 +13,7 @@ body
     padding: 16px;
 }
 
-ul
+.header ul
 {
     display: flex;
     list-style-type: none;
@@ -80,13 +80,6 @@ button
     border: none;
 }
 
-h2
-{
-    text-align: center;
-    font-weight: 900;
-    font-size: 48px;
-    color: #1f2937;
-}
 .content
 {
     display: flex;
@@ -152,6 +145,8 @@ h2
     background-color: #3882f6;
     color: white;
     margin-bottom: 64px;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .footer button
@@ -173,4 +168,34 @@ h2
     font-size: 14px;
     color: #1f2937;
     margin-top: 18px;
+}
+
+.header img
+{
+    width: 7%;
+    height: auto;
+    padding: 16px;
+}
+
+.header h2
+{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 24px;
+}
+
+.header .left
+{
+    display: flex;
+    align-items: center;
+}
+
+.foto
+{
+    text-align: center;
+    font-size: 48px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-top: 64px;
 }
